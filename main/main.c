@@ -66,7 +66,7 @@ int main(void)
     
     if (scanf("%d", &itens) != 1 || itens <= 0) 
     {
-        fprintf(stderr, "Quantidade inválida.\n");
+        fprintf(stderr, "\nQuantidade inválida.\n");
         return 1;
     }
 
@@ -81,9 +81,9 @@ int main(void)
     for (int i = 0; i < itens; i++) 
     {
         printf("\nProduto %d:\n", i + 1);
-        printf("  ID: ");
+        printf("\nID: ");
         scanf("%d", &(produtos + i)->id);
-        printf("  Preço: R$ ");
+        printf("Preço: R$ ");
         scanf("%f", &(produtos + i)->preco);
     }
 

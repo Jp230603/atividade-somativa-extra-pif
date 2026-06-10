@@ -15,6 +15,6 @@ void imprimir_produtos(Produto *ptr, int quantidade)
 {
     for (int i = 0; i < quantidade; i++)
     {
-        printf("  [ID %d] Preço: R$ %.2f\n", (ptr + i)->id, (ptr + i)->preco);
+        printf(" \n\t [ID %d] Preço: R$ %.2f\n", (ptr + i)->id, (ptr + i)->preco);
     }
 }

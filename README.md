@@ -1,8 +1,8 @@
-# Atividade Somativa Extra — Ponteiros em C
+<h1 align="center">Atividade Somativa Extra — Ponteiros em C 🧭</h1>
 
 Resolução das 5 atividades sobre ponteiros, passagem por referência, structs, aritmética de ponteiros e alocação dinâmica de memória em C.
 
-## Estrutura da atividade
+## Estrutura da atividade:
 
 ```
 .
@@ -44,7 +44,7 @@ make clean
 gcc -Wall -Wextra -pedantic -std=c11 -Iinclude src/produto.c main/main.c -o programa
 ```
 
-### Flags explicadas
+### Flags detalhadas 🚩
 
 | Flag | Descrição |
 |------|-----------|
@@ -56,7 +56,7 @@ gcc -Wall -Wextra -pedantic -std=c11 -Iinclude src/produto.c main/main.c -o prog
 
 ---
 
-## Execução
+## Execução ⚙️
 
 ```bash
 ./programa
@@ -64,9 +64,7 @@ gcc -Wall -Wextra -pedantic -std=c11 -Iinclude src/produto.c main/main.c -o prog
 
 As Atividades 1 a 4 executam automaticamente. Na Atividade 5, o programa solicita a quantidade de produtos e os dados de cada um.
 
----
-
-## Atividades
+## Atividades ✏️
 
 ### Atividade 1 — Fundamentos de Ponteiros e Modificação Direta
 
@@ -161,7 +159,7 @@ free(produtos); // obrigatório — evita memory leak
 
 **Verificação de `malloc`:** em sistemas com pouca memória, `malloc` pode retornar `NULL`. Ignorar essa verificação causa undefined behavior ao desreferenciar `NULL`.
 
-## Arquitetura e Fluxo de Compilação
+## Arquitetura e Fluxo de Compilação 🏗️🧪
 
 ```
 include/produto.h
